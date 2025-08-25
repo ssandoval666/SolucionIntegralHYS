@@ -1,0 +1,544 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>aspnet-WebAppSmartHYS-1757DFEF-8A50-4CF6-A39D-79B9DFFE19FC</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Views\Capacitaciones\Index.cshtml" />
+    <None Include="Views\Constancias\Index.cshtml" />
+    <None Include="Views\Datatables\Alteditor.cshtml" />
+    <None Include="Views\Datatables\Autofill.cshtml" />
+    <None Include="Views\Datatables\Basic.cshtml" />
+    <None Include="Views\Datatables\Buttons.cshtml" />
+    <None Include="Views\Datatables\Colreorder.cshtml" />
+    <None Include="Views\Datatables\Columnfilter.cshtml" />
+    <None Include="Views\Datatables\Export.cshtml" />
+    <None Include="Views\Datatables\Fixedcolumns.cshtml" />
+    <None Include="Views\Datatables\Fixedheader.cshtml" />
+    <None Include="Views\Datatables\Keytable.cshtml" />
+    <None Include="Views\Datatables\Responsive.cshtml" />
+    <None Include="Views\Datatables\ResponsiveAlt.cshtml" />
+    <None Include="Views\Datatables\Rowgroup.cshtml" />
+    <None Include="Views\Datatables\Rowreorder.cshtml" />
+    <None Include="Views\Datatables\Scroller.cshtml" />
+    <None Include="Views\Datatables\Select.cshtml" />
+    <None Include="Views\Docs\Buildnotes.cshtml" />
+    <None Include="Views\Docs\CommunitySupport.cshtml" />
+    <None Include="Views\Docs\FlavorsEditions.cshtml" />
+    <None Include="Views\Docs\General.cshtml" />
+    <None Include="Views\Docs\Licensing.cshtml" />
+    <None Include="Views\Documentation\Changelog.cshtml" />
+    <None Include="Views\Documentation\Customizations.cshtml" />
+    <None Include="Views\Documentation\GettingStarted.cshtml" />
+    <None Include="Views\Documentation\HowtoContribute.cshtml" />
+    <None Include="Views\Documentation\Introduction.cshtml" />
+    <None Include="Views\Documentation\LicensingInformation.cshtml" />
+    <None Include="Views\Documentation\SiteStructure.cshtml" />
+    <None Include="Views\Documentation\SolutionArchitecture.cshtml" />
+    <None Include="Views\Evaluaciones\Index.cshtml" />
+    <None Include="Views\FormPlugins\Colorpicker.cshtml" />
+    <None Include="Views\FormPlugins\Datepicker.cshtml" />
+    <None Include="Views\FormPlugins\DaterangePicker.cshtml" />
+    <None Include="Views\FormPlugins\Dropzone.cshtml" />
+    <None Include="Views\FormPlugins\Imagecropper.cshtml" />
+    <None Include="Views\FormPlugins\Inputmask.cshtml" />
+    <None Include="Views\FormPlugins\Ionrangeslider.cshtml" />
+    <None Include="Views\FormPlugins\Markdown.cshtml" />
+    <None Include="Views\FormPlugins\Nouislider.cshtml" />
+    <None Include="Views\FormPlugins\Select2.cshtml" />
+    <None Include="Views\FormPlugins\Summernote.cshtml" />
+    <None Include="Views\FormPlugins\Wizard.cshtml" />
+    <None Include="Views\Form\BasicInputs.cshtml" />
+    <None Include="Views\Form\CheckboxRadio.cshtml" />
+    <None Include="Views\Form\InputGroups.cshtml" />
+    <None Include="Views\Form\Validation.cshtml" />
+    <None Include="Views\Home\Index.cshtml" />
+    <None Include="Views\Home\Privacy.cshtml" />
+    <None Include="Views\Icons\FontawesomeBrand.cshtml" />
+    <None Include="Views\Icons\FontawesomeDuotone.cshtml" />
+    <None Include="Views\Icons\FontawesomeLight.cshtml" />
+    <None Include="Views\Icons\FontawesomeRegular.cshtml" />
+    <None Include="Views\Icons\FontawesomeSolid.cshtml" />
+    <None Include="Views\Icons\NextgenBase.cshtml" />
+    <None Include="Views\Icons\NextgenGeneral.cshtml" />
+    <None Include="Views\Icons\StackGenerate.cshtml" />
+    <None Include="Views\Icons\StackShowcase.cshtml" />
+    <None Include="Views\Icons\WebfontsFaq.cshtml" />
+    <None Include="Views\Intel\AnalyticsDashboard.cshtml" />
+    <None Include="Views\Intel\Introduction.cshtml" />
+    <None Include="Views\Intel\MarketingDashboard.cshtml" />
+    <None Include="Views\Intel\Privacy.cshtml" />
+    <None Include="Views\Main\Index.cshtml" />
+    <None Include="Views\Miscellaneous\Fullcalendar.cshtml" />
+    <None Include="Views\Miscellaneous\Lightgallery.cshtml" />
+    <None Include="Views\Miscellaneous\Treeview.cshtml" />
+    <None Include="Views\Notifications\Sweetalert2.cshtml" />
+    <None Include="Views\Notifications\Toastr.cshtml" />
+    <None Include="Views\Page\Chat.cshtml" />
+    <None Include="Views\Page\Confirmation.cshtml" />
+    <None Include="Views\Page\Contacts.cshtml" />
+    <None Include="Views\Page\Error.cshtml" />
+    <None Include="Views\Page\Error404.cshtml" />
+    <None Include="Views\Page\ErrorAnnounced.cshtml" />
+    <None Include="Views\Page\Forget.cshtml" />
+    <None Include="Views\Page\ForumDiscussion.cshtml" />
+    <None Include="Views\Page\ForumList.cshtml" />
+    <None Include="Views\Page\ForumThreads.cshtml" />
+    <None Include="Views\Page\InboxGeneral.cshtml" />
+    <None Include="Views\Page\InboxRead.cshtml" />
+    <None Include="Views\Page\InboxWrite.cshtml" />
+    <None Include="Views\Page\Invoice.cshtml" />
+    <None Include="Views\Page\Locked.cshtml" />
+    <None Include="Views\Page\Login.cshtml" />
+    <None Include="Views\Page\LoginAlt.cshtml" />
+    <None Include="Views\Page\Profile.cshtml" />
+    <None Include="Views\Page\Projects.cshtml" />
+    <None Include="Views\Page\Register.cshtml" />
+    <None Include="Views\Page\Search.cshtml" />
+    <None Include="Views\Plugins\Appcore.cshtml" />
+    <None Include="Views\Plugins\Bootbox.cshtml" />
+    <None Include="Views\Plugins\Faq.cshtml" />
+    <None Include="Views\Plugins\I18next.cshtml" />
+    <None Include="Views\Plugins\Navigation.cshtml" />
+    <None Include="Views\Plugins\Pacejs.cshtml" />
+    <None Include="Views\Plugins\Slimscroll.cshtml" />
+    <None Include="Views\Plugins\Smartpanels.cshtml" />
+    <None Include="Views\Plugins\Throttle.cshtml" />
+    <None Include="Views\Plugins\Waves.cshtml" />
+    <None Include="Views\Settings\HowItWorks.cshtml" />
+    <None Include="Views\Settings\LayoutOptions.cshtml" />
+    <None Include="Views\Settings\SavingDb.cshtml" />
+    <None Include="Views\Settings\SkinOptions.cshtml" />
+    <None Include="Views\Settings\ThemeModes.cshtml" />
+    <None Include="Views\Shared\Components\Navigation\Default.cshtml" />
+    <None Include="Views\Shared\_ColorProfileReference.cshtml" />
+    <None Include="Views\Shared\_Compose.cshtml" />
+    <None Include="Views\Shared\_ComposeLayout.cshtml" />
+    <None Include="Views\Shared\_Contact.cshtml" />
+    <None Include="Views\Shared\_CookieConsentPartial.cshtml" />
+    <None Include="Views\Shared\_CopyrightHeader.cshtml" />
+    <None Include="Views\Shared\_DropdownApp.cshtml" />
+    <None Include="Views\Shared\_DropdownMenu.cshtml" />
+    <None Include="Views\Shared\_DropdownNotification.cshtml" />
+    <None Include="Views\Shared\_Favicon.cshtml" />
+    <None Include="Views\Shared\_GoogleAnalytics.cshtml" />
+    <None Include="Views\Shared\_Head.cshtml" />
+    <None Include="Views\Shared\_Layout.cshtml" />
+    <None Include="Views\Shared\_LeftPanel.cshtml" />
+    <None Include="Views\Shared\_Logo.cshtml" />
+    <None Include="Views\Shared\_Menu.cshtml" />
+    <None Include="Views\Shared\_NavFilter.cshtml" />
+    <None Include="Views\Shared\_NavFilterMsg.cshtml" />
+    <None Include="Views\Shared\_NavFooter.cshtml" />
+    <None Include="Views\Shared\_NavInfoCard.cshtml" />
+    <None Include="Views\Shared\_PageBreadcrumb.cshtml" />
+    <None Include="Views\Shared\_PageContentOverlay.cshtml" />
+    <None Include="Views\Shared\_PageFooter.cshtml" />
+    <None Include="Views\Shared\_PageHeader.cshtml" />
+    <None Include="Views\Shared\_PageHeading.cshtml" />
+    <None Include="Views\Shared\_PageSettings.cshtml" />
+    <None Include="Views\Shared\_ScriptsBasePlugins.cshtml" />
+    <None Include="Views\Shared\_ScriptsLoadingSaving.cshtml" />
+    <None Include="Views\Shared\_ShortcutMenu.cshtml" />
+    <None Include="Views\Shared\_ShortcutMessenger.cshtml" />
+    <None Include="Views\Shared\_ShortcutModal.cshtml" />
+    <None Include="Views\Shared\_Signature.cshtml" />
+    <None Include="Views\Shared\_TabMsgr.cshtml" />
+    <None Include="Views\Shared\_TabSettings.cshtml" />
+    <None Include="Views\Shared\_ValidationScriptsPartial.cshtml" />
+    <None Include="Views\Statistics\C3.cshtml" />
+    <None Include="Views\Statistics\Chartist.cshtml" />
+    <None Include="Views\Statistics\Chartjs.cshtml" />
+    <None Include="Views\Statistics\Dygraph.cshtml" />
+    <None Include="Views\Statistics\Easypiechart.cshtml" />
+    <None Include="Views\Statistics\Flot.cshtml" />
+    <None Include="Views\Statistics\Peity.cshtml" />
+    <None Include="Views\Statistics\Sparkline.cshtml" />
+    <None Include="Views\Tables\Basic.cshtml" />
+    <None Include="Views\Tables\GenerateStyle.cshtml" />
+    <None Include="Views\Ui\Accordion.cshtml" />
+    <None Include="Views\Ui\Alerts.cshtml" />
+    <None Include="Views\Ui\Badges.cshtml" />
+    <None Include="Views\Ui\Breadcrumbs.cshtml" />
+    <None Include="Views\Ui\ButtonGroup.cshtml" />
+    <None Include="Views\Ui\Buttons.cshtml" />
+    <None Include="Views\Ui\Cards.cshtml" />
+    <None Include="Views\Ui\Carousel.cshtml" />
+    <None Include="Views\Ui\Collapse.cshtml" />
+    <None Include="Views\Ui\Dropdowns.cshtml" />
+    <None Include="Views\Ui\ListFilter.cshtml" />
+    <None Include="Views\Ui\Modal.cshtml" />
+    <None Include="Views\Ui\Navbars.cshtml" />
+    <None Include="Views\Ui\Pagination.cshtml" />
+    <None Include="Views\Ui\Panels.cshtml" />
+    <None Include="Views\Ui\Popovers.cshtml" />
+    <None Include="Views\Ui\ProgressBars.cshtml" />
+    <None Include="Views\Ui\Scrollspy.cshtml" />
+    <None Include="Views\Ui\SidePanel.cshtml" />
+    <None Include="Views\Ui\Spinners.cshtml" />
+    <None Include="Views\Ui\TabsAccordions.cshtml" />
+    <None Include="Views\Ui\TabsPills.cshtml" />
+    <None Include="Views\Ui\Toasts.cshtml" />
+    <None Include="Views\Ui\Tooltips.cshtml" />
+    <None Include="Views\Ui\TooltipsPopovers.cshtml" />
+    <None Include="Views\Utilities\Borders.cshtml" />
+    <None Include="Views\Utilities\Clearfix.cshtml" />
+    <None Include="Views\Utilities\ColorPallet.cshtml" />
+    <None Include="Views\Utilities\DisplayProperty.cshtml" />
+    <None Include="Views\Utilities\Flexbox.cshtml" />
+    <None Include="Views\Utilities\Fonts.cshtml" />
+    <None Include="Views\Utilities\Helpers.cshtml" />
+    <None Include="Views\Utilities\Position.cshtml" />
+    <None Include="Views\Utilities\ResponsiveGrid.cshtml" />
+    <None Include="Views\Utilities\Sizing.cshtml" />
+    <None Include="Views\Utilities\Spacing.cshtml" />
+    <None Include="Views\Utilities\Typography.cshtml" />
+    <None Include="wwwroot\img\login_manager.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <OpenApiReference Include="OpenAPIs\swagger.json" CodeGenerator="NSwagCSharp" Namespace="WebApiDS" ClassName="WebApi">
+      <SourceUri>https://localhost:7245/swagger/v1/swagger.json</SourceUri>
+    </OpenApiReference>
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
+    <None Update="Images\FirmaResponsableEmpresa.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\FirmaResponsableHYS.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Blazored.LocalStorage" Version="4.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Session" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.2" />
+    <PackageReference Include="Microsoft.Extensions.ApiDescription.Client" Version="3.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="NSwag.ApiDescription.Client" Version="13.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="QuestPDF" Version="2023.12.6" />
+    <PackageReference Include="System.Data.SQLite" Version="1.0.118" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_AccidenteInItinere\01.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_AccidenteInItinere\02.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_AccidenteInItinere\03.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_AccidenteInItinere\04.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_Cargas\01.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_Cargas\02.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_Cargas\03.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_Cargas\04.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_Cargas\05.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_Cargas\06.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_Cargas\07.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_Cargas\08.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_Cargas\09.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_Circulacion\01.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_Circulacion\02.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_Circulacion\03.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_Circulacion\04.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_Circulacion\05.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_Circulacion\06.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_Elementos\01.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_Elementos\02.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_Elementos\03.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_Elementos\04.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_Elementos\05.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_Elementos\06.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_Elementos\07.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_Elementos\08.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_Elementos\09.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_Elementos\10.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_Elementos\11.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_Elementos\12.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_Elementos\13.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_Elementos\14.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_Elementos\15.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_Elementos\16.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_Elementos\17.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_Ergonomia\01.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_Ergonomia\02.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_Ergonomia\03.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_Ergonomia\04.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_Ergonomia\05.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_Ergonomia\06.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_Ergonomia\07.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_Incendio\01.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_Incendio\02.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_Incendio\03.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_Incendio\04.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_Incendio\05.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_Incendio\06.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_Incendio\07.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_MedioAmbiente\01.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_MedioAmbiente\02.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_MedioAmbiente\03.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_MedioAmbiente\04.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_MedioAmbiente\05.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_MedioAmbiente\06.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_MedioAmbiente\07.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_PrimerosAuxilios\01.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_PrimerosAuxilios\02.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_PrimerosAuxilios\03.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_PrimerosAuxilios\04.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_PrimerosAuxilios\05.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_PrimerosAuxilios\06.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_PrimerosAuxilios\07.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_PrimerosAuxilios\08.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_PrimerosAuxilios\09.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_RiesgoElectrico\01.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_RiesgoElectrico\02.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_RiesgoElectrico\03.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_RiesgoElectrico\04.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_RiesgoElectrico\05.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_RiesgoElectrico\06.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\Capacitaciones\Presentacion\Cap_RiesgoElectrico\07.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\img\bitbucket-logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\img\BKG_Constancias.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\img\capacitaciones.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\img\Capacitaciones\AccidenteInItinere.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\img\Capacitaciones\CargaManual.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\img\Capacitaciones\Electricos.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\img\Capacitaciones\EPPS.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\img\Capacitaciones\Ergonomia.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\img\Capacitaciones\Incendio.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\img\Capacitaciones\MedioAmbiente.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\img\Capacitaciones\Primeros_Auxilios.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\img\Capacitaciones\VideoIncendio.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\img\Capacitaciones\VideoMataFuego.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\img\clouds.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\img\DiplomaFinal.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\img\Evaluaciones.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\img\ley.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\img\loading.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\img\logo-big.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\img\logo-flat.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\img\logo-gradient.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\img\logo-red.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\img\logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\img\logo.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\img\main.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\img\Nestor-1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\img\site-layout.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

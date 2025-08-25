@@ -1,0 +1,111 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartDS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartDS\\WebAppSmartDS.csproj|c:\\users\\sebastian\\desktop\\solucionhys\\webappsmartds\\webappsmartds\\controllers\\grabacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartDS\\WebAppSmartDS.csproj|solutionrelative:webappsmartds\\controllers\\grabacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartDS\\WebAppSmartDS.csproj|c:\\users\\sebastian\\desktop\\solucionhys\\webappsmartds\\webappsmartds\\views\\capacitacionesaccidentesmoto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartDS\\WebAppSmartDS.csproj|solutionrelative:webappsmartds\\views\\capacitacionesaccidentesmoto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartDS\\WebAppSmartDS.csproj|c:\\users\\sebastian\\desktop\\solucionhys\\webappsmartds\\webappsmartds\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartDS\\WebAppSmartDS.csproj|solutionrelative:webappsmartds\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:20:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:21:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:17:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:19:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:18:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{65ddf8c3-8f89-4077-a6c6-dbb8853aab13}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{65ddf8c3-8f89-4077-a6c6-dbb8853aab13}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{65ddf8c3-8f89-4077-a6c6-dbb8853aab13}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GrabacionesController.cs",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartDS\\WebAppSmartDS\\Controllers\\GrabacionesController.cs",
+              "RelativeDocumentMoniker": "WebAppSmartDS\\Controllers\\GrabacionesController.cs",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartDS\\WebAppSmartDS\\Controllers\\GrabacionesController.cs",
+              "RelativeToolTip": "WebAppSmartDS\\Controllers\\GrabacionesController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAIAwwDEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T18:19:33.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartDS\\WebAppSmartDS\\appsettings.json",
+              "RelativeDocumentMoniker": "WebAppSmartDS\\appsettings.json",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartDS\\WebAppSmartDS\\appsettings.json",
+              "RelativeToolTip": "WebAppSmartDS\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-07T16:35:07.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartDS\\WebAppSmartDS\\Views\\CapacitacionesAccidentesMoto\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebAppSmartDS\\Views\\CapacitacionesAccidentesMoto\\Index.cshtml",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartDS\\WebAppSmartDS\\Views\\CapacitacionesAccidentesMoto\\Index.cshtml",
+              "RelativeToolTip": "WebAppSmartDS\\Views\\CapacitacionesAccidentesMoto\\Index.cshtml",
+              "ViewState": "AgIAAKYAAAAAAAAAAAAMwK4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T18:32:22.683Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

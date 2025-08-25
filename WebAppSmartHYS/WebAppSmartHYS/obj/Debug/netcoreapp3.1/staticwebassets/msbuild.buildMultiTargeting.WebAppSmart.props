@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\WebAppSmart.props" />
+</Project>

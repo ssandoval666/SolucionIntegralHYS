@@ -1,0 +1,24 @@
+{
+  "version": "4.5",
+  "lists": [
+
+    {
+      "title": "Capacitaciones",
+      "href": "capacitaciones_index.html",
+      "icon": "fal fa-graduation-cap",
+      "roles": []
+    },    
+    {
+      "title": "Evaluaciones",
+      "href": "evaluaciones_index.html",
+      "icon": "fal fa-graduation-cap",
+      "roles": []
+    },
+    {
+      "title": "Constancias",
+      "href": "constancias_index.html",
+      "icon": "fal fa-graduation-cap",
+      "roles": []
+    }
+  ]
+}

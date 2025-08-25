@@ -1,0 +1,33 @@
+@using Microsoft.AspNetCore.Http
+@using Microsoft.AspNetCore.Identity
+@using Newtonsoft.Json
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+@if (HttpContextAccessor.HttpContext.Session.GetString("oUser") != null)
+{
+	if (JsonConvert.DeserializeObject<IdentityUser>(HttpContextAccessor.HttpContext.Session.GetString("oUser")).UserName != "GUEST")
+	{
+		<nav class="shortcut-menu d-none d-sm-block">
+			<input type="checkbox" class="menu-open" name="menu-open" id="menu_open"/>
+			<label for="menu_open" class="menu-open-button ">
+				<span class="app-shortcut-icon d-block"></span>
+			</label>
+			<a href="/Identity/Account/Logout" class="menu-item btn" data-toggle="tooltip" data-placement="left" title="Salir">
+				<i class="@(Settings.Theme.IconPrefix) fa-sign-out"></i>
+			</a>
+
+
+			<!--
+			<a href="#" class="menu-item btn" data-action="app-fullscreen" data-toggle="tooltip" data-placement="left" title="Full Screen">
+			<i class="@(Settings.Theme.IconPrefix) fa-expand"></i>
+			</a>
+			<a href="#" class="menu-item btn" data-action="app-print" data-toggle="tooltip" data-placement="left" title="Print page">
+			<i class="@(Settings.Theme.IconPrefix) fa-print"></i>
+			</a>
+			<a href="#" class="menu-item btn" data-action="app-voice" data-toggle="tooltip" data-placement="left" title="Voice command">
+			<i class="@(Settings.Theme.IconPrefix) fa-microphone"></i>
+			</a>
+			-->
+		</nav>
+	}
+}

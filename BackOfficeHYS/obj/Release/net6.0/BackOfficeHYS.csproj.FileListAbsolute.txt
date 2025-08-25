@@ -1,0 +1,12 @@
+C:\Users\Sebastian_Sandoval\Desktop\SolucionHYS\BackOfficeHYS\bin\Release\net6.0\BackOfficeHYS.deps.json
+C:\Users\Sebastian_Sandoval\Desktop\SolucionHYS\BackOfficeHYS\bin\Release\net6.0\BackOfficeHYS.dll
+C:\Users\Sebastian_Sandoval\Desktop\SolucionHYS\BackOfficeHYS\bin\Release\net6.0\BackOfficeHYS.pdb
+C:\Users\Sebastian_Sandoval\Desktop\SolucionHYS\BackOfficeHYS\obj\Release\net6.0\BackOfficeHYS.csproj.AssemblyReference.cache
+C:\Users\Sebastian_Sandoval\Desktop\SolucionHYS\BackOfficeHYS\obj\Release\net6.0\BackOfficeHYS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sebastian_Sandoval\Desktop\SolucionHYS\BackOfficeHYS\obj\Release\net6.0\BackOfficeHYS.AssemblyInfoInputs.cache
+C:\Users\Sebastian_Sandoval\Desktop\SolucionHYS\BackOfficeHYS\obj\Release\net6.0\BackOfficeHYS.AssemblyInfo.cs
+C:\Users\Sebastian_Sandoval\Desktop\SolucionHYS\BackOfficeHYS\obj\Release\net6.0\BackOfficeHYS.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian_Sandoval\Desktop\SolucionHYS\BackOfficeHYS\obj\Release\net6.0\BackOfficeHYS.dll
+C:\Users\Sebastian_Sandoval\Desktop\SolucionHYS\BackOfficeHYS\obj\Release\net6.0\refint\BackOfficeHYS.dll
+C:\Users\Sebastian_Sandoval\Desktop\SolucionHYS\BackOfficeHYS\obj\Release\net6.0\BackOfficeHYS.pdb
+C:\Users\Sebastian_Sandoval\Desktop\SolucionHYS\BackOfficeHYS\obj\Release\net6.0\ref\BackOfficeHYS.dll

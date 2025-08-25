@@ -1,0 +1,12 @@
+C:\Users\Usuario\Desktop\SolucionDS\BackOfficeDS\bin\Debug\net6.0\BackOfficeDS.deps.json
+C:\Users\Usuario\Desktop\SolucionDS\BackOfficeDS\bin\Debug\net6.0\BackOfficeDS.dll
+C:\Users\Usuario\Desktop\SolucionDS\BackOfficeDS\bin\Debug\net6.0\BackOfficeDS.pdb
+C:\Users\Usuario\Desktop\SolucionDS\BackOfficeDS\obj\Debug\net6.0\BackOfficeDS.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\SolucionDS\BackOfficeDS\obj\Debug\net6.0\BackOfficeDS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\SolucionDS\BackOfficeDS\obj\Debug\net6.0\BackOfficeDS.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\SolucionDS\BackOfficeDS\obj\Debug\net6.0\BackOfficeDS.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\SolucionDS\BackOfficeDS\obj\Debug\net6.0\BackOfficeDS.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\SolucionDS\BackOfficeDS\obj\Debug\net6.0\BackOfficeDS.dll
+C:\Users\Usuario\Desktop\SolucionDS\BackOfficeDS\obj\Debug\net6.0\refint\BackOfficeDS.dll
+C:\Users\Usuario\Desktop\SolucionDS\BackOfficeDS\obj\Debug\net6.0\BackOfficeDS.pdb
+C:\Users\Usuario\Desktop\SolucionDS\BackOfficeDS\obj\Debug\net6.0\ref\BackOfficeDS.dll

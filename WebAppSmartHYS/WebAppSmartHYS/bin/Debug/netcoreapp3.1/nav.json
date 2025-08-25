@@ -1,0 +1,24 @@
+{
+  "version": "4.5",
+  "lists": [
+    {
+      "title": "Principal",
+      "href": "main_index.html",
+      "icon": "fal fa-graduation-cap",
+      "roles": [ "Administrator", "Guest" ]
+    },
+    {
+      "title": "Capacitaciones",
+      "icon": "fal fa-file-certificate",
+      "roles": [ "Administrator", "Guest" ],
+      "items": [
+        {
+          "title": "Constancias",
+          "showOnSeed": false,
+          "href": "CapacitacionesConstancias_index.html",
+          "roles": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+﻿@{
+    ViewData["Title"] = "Cargas";
+    ViewData["Capacitacion"] = "CAPACIDAD DE RIESGOS LABORALES ";
+}
+
+<div class="modal fade" id="ModalError" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">
+                    Capacitacion de Cargas
+                </h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="@(Settings.Theme.IconPrefix) fa-times"></i></span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="alert alert-block alert-danger">
+                    <p>No aprobo el cuestionario.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="example-basic" style="background-image: url('img/ley.jpg');height:92%;">
+    <h3>Empleado</h3>
+    <section>
+        <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-4">
+                <label for="validationCustom01" class="form-label">Nombre y Apellido</label>
+                <input type="text" class="form-control" id="validationCustom01" required>
+            </div>
+            <div class="col-md-4">
+                <label for="validationCustom02" class="form-label">Documento</label>
+                <input type="text" class="form-control" id="validationCustom02" required>
+            </div>
+            <div class="col-md-4">
+                <label class="form-label">Firma</label>
+                <canvas width="300" height="200" id="signature" style="border:1px solid black; background-color:white"></canvas>
+            </div>
+        </form>
+    </section>
+    <!--
+    <h3>Acuerdo</h3>
+    <section>
+        <p>Wonderful transition effects.</p>
+    </section>
+    -->
+    <h3>Capacitacion</h3>
+    <section>
+        <div style="height:80%">
+            <div class="items">
+                <div><img style="height:300px; height:600px;margin:0 auto;" src="~/capacitaciones/presentacion/Cap_Cargas/01.png" /></div>
+                <div><img style="height:300px; height:600px;margin:0 auto;" src="~/capacitaciones/presentacion/Cap_Cargas/02.png" /></div>
+                <div><img style="height:300px; height:600px;margin:0 auto;" src="~/capacitaciones/presentacion/Cap_Cargas/03.png" /></div>
+                <div><img style="height:300px; height:600px;margin:0 auto;" src="~/capacitaciones/presentacion/Cap_Cargas/04.png" /></div>
+                <div><img style="height:300px; height:600px;margin:0 auto;" src="~/capacitaciones/presentacion/Cap_Cargas/05.png" /></div>
+                <div><img style="height:300px; height:600px;margin:0 auto;" src="~/capacitaciones/presentacion/Cap_Cargas/06.png" /></div>
+                <div><img style="height:300px; height:600px;margin:0 auto;" src="~/capacitaciones/presentacion/Cap_Cargas/07.png" /></div>
+                <div><img style="height:300px; height:600px;margin:0 auto;" src="~/capacitaciones/presentacion/Cap_Cargas/08.png" /></div>
+                <div><img style="height:300px; height:600px;margin:0 auto;" src="~/capacitaciones/presentacion/Cap_Cargas/09.png" /></div>
+            </div>
+        </div>
+    </section>
+    <h3>Evaluacion</h3>
+    <section>
+        <div class="asked" id="asked" style="overflow:scroll">
+            <div class="col-md-4">
+                <label class="form-label">•	A PARTIR DE CUANTOS KG SE CONSIDERA EXCESIVO EN LEVANTAMIENTOS DE CARGA?</label>
+
+                <div class="custom-control custom-radio">
+                    <input type="radio" class="custom-control-input" id="chkPregunta1Op1" name="chkPregunta1" value="chkPregunta1Op1">
+                    <label class="custom-control-label" for="chkPregunta1Op1">15 KG</label>
+                </div>
+                <div class="custom-control custom-radio">
+                    <input type="radio" class="custom-control-input" id="chkPregunta1Op2" name="chkPregunta1" value="chkPregunta1Op2">
+                    <!--Esta--><label class="custom-control-label" for="chkPregunta1Op2">25 KG</label>
+                </div>
+
+                <div class="custom-control custom-radio">
+                    <input type="radio" class="custom-control-input" id="chkPregunta1Op3" name="chkPregunta1" value="chkPregunta1Op3">
+                    <label class="custom-control-label" for="chkPregunta1Op3">30 KG</label>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <h3>Resultado</h3>
+    <section>
+        <div class="bg-image d-flex justify-content-center align-items-center"
+             style="
+    background-image: url('img/DiplomaFinal.png');
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
+    height: 95vh;">
+            <div class="col-lg-7" style="top:-30%;">
+
+                <p style="color:red;font-size:20px;">¡¡¡¡¡ FELICITACIONES !!!!!</p>
+
+                <p style="color:blue;font-size:18px;">USTED ACABE DE COMPLETAR CON EXITO LA CAPACITACION DE</p>
+                <br />
+                <p style="color:blue;font-size:18px;">@ViewData["Capacitacion"]</p>
+
+
+            </div>
+
+        </div>
+    </section>
+</div>
+
+@section ScriptsBlock {
+    <link href="~/css/jquery.steps.css" rel="stylesheet" />
+    <link href="~/css/signature-pad.css" rel="stylesheet" />
+
+    <script src="~/lib/jquery/jquery.steps.js"></script>
+    <script src="~/lib/jquery/jquery.steps.min.js"></script>
+    <script src="~/lib/jquery/asked.js"></script>
+    <script src="~/lib/jquery/asked-config.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="~/js/signature_pad.umd.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script>
+        var bAprobo = false;
+        var fPorcentaje = 0;
+        var pad;
+        var RootUrl = '@Url.Content("~/")';
+
+        $(function () {
+
+            var canvas = document.querySelector('#signature');
+            pad = new SignaturePad(canvas);
+        });
+
+        $("#example-basic").steps({
+            headerTag: "h3",
+            bodyTag: "section",
+            transitionEffect: "slideLeft",
+            autoFocus: true,
+
+            onStepChanging: function (event, currentIndex, newIndex) {
+                var Repuesta = true;
+
+                if (currentIndex == 0) {
+                    var forms = document.querySelectorAll('.needs-validation');
+
+                    Array.prototype.slice.call(forms)
+                        .forEach(function (form) {
+                            Repuesta = form.checkValidity();
+                            form.classList.add('was-validated');
+
+                        })
+
+                }
+
+                if (newIndex == 3) {
+                    var iPreguntas = 1;
+                    var iPreguntasOk = 0;
+
+                    if ($('input[name="chkPregunta1"]:checked').val() == "chkPregunta1Op2")
+                        iPreguntasOk = iPreguntasOk + 1;
+
+                    if (iPreguntasOk >= 1)
+                        bAprobo = true;
+
+                    fPorcentaje = (iPreguntasOk / iPreguntas) * 100;
+
+                    if (!bAprobo) {
+                        $('#ModalError').modal('show');
+                        Repuesta = false;
+                    }
+                    else {
+                        var TipoCapacitacion = "Cargas";
+                        var Empleado = $('#validationCustom01').val();
+                        var Documento = $('#validationCustom02').val();
+                        var data = pad.toDataURL();
+                        var Capacitacion = "@ViewData["Capacitacion"]";
+
+                        $.ajax({
+                            type: "POST",
+                            url: RootUrl + 'Grabaciones/GrabarPDF', 
+                            data: { Empleado: Empleado, Documento: Documento, Capacitacion: Capacitacion, TipoCapacitacion: TipoCapacitacion, PorcentajeCalificacion: fPorcentaje, FirmaEmpleado: data },
+                            dataType: "json",
+                            success: function (recData) { },
+                            error: function () { alert('A error'); Repuesta = false; }
+                        });
+                    }
+                }
+
+                return Repuesta;
+            },
+
+            onFinished: function (event, currentIndex) {
+
+                var url = 'capacitaciones/Index';
+                window.location.href = url;
+            },
+
+            /* Labels */
+            labels: {
+                next: "Siguiente",
+                previous: "Anterior",
+                finish: "Finalizar"
+            }
+        });
+        $("div.actions").insertBefore("div.content");
+
+
+        $(document).ready(function () {
+
+            $('.items').slick({
+                infinite: false
+                , slidesToShow: 1
+                , slidesToScroll: 1
+                , speed: 500
+                , fade: true
+                , cssEase: 'linear'
+                , centerMode: true
+            });
+        });
+
+    </script>
+}
+

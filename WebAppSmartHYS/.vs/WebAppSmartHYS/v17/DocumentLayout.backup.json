@@ -1,0 +1,757 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|c:\\users\\sebastian\\desktop\\solucionhys\\webappsmarthys\\webappsmarthys\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|solutionrelative:webappsmarthys\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|c:\\users\\sebastian\\desktop\\solucionhys\\webappsmarthys\\webappsmarthys\\controllers\\grabacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|solutionrelative:webappsmarthys\\controllers\\grabacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|c:\\users\\sebastian\\desktop\\solucionhys\\webappsmarthys\\webappsmarthys\\controllers\\constanciascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|solutionrelative:webappsmarthys\\controllers\\constanciascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|c:\\users\\sebastian\\desktop\\solucionhys\\webappsmarthys\\webappsmarthys\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|solutionrelative:webappsmarthys\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|c:\\users\\sebastian\\desktop\\solucionhys\\webappsmarthys\\webappsmarthys\\views\\datatables\\alteditor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|solutionrelative:webappsmarthys\\views\\datatables\\alteditor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|c:\\users\\sebastian\\desktop\\solucionhys\\webappsmarthys\\webappsmarthys\\controllers\\constanciascapacitacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|solutionrelative:webappsmarthys\\controllers\\constanciascapacitacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|c:\\users\\sebastian\\desktop\\solucionhys\\webappsmarthys\\webappsmarthys\\views\\capacitacionesconstancias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|solutionrelative:webappsmarthys\\views\\capacitacionesconstancias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|c:\\users\\sebastian\\desktop\\solucionhys\\webappsmarthys\\webappsmarthys\\views\\capacitacionesaccidentesitinere\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|solutionrelative:webappsmarthys\\views\\capacitacionesaccidentesitinere\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|c:\\users\\sebastian\\desktop\\solucionhys\\webappsmarthys\\webappsmarthys\\controllers\\capacitacionesergonomiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|solutionrelative:webappsmarthys\\controllers\\capacitacionesergonomiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|c:\\users\\sebastian\\desktop\\solucionhys\\webappsmarthys\\webappsmarthys\\wwwroot\\media\\data\\server-demo.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|solutionrelative:webappsmarthys\\wwwroot\\media\\data\\server-demo.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|c:\\users\\sebastian\\desktop\\solucionhys\\webappsmarthys\\webappsmarthys\\nav.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|solutionrelative:webappsmarthys\\nav.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|c:\\users\\sebastian\\desktop\\solucionhys\\webappsmarthys\\webappsmarthys\\controllers\\capacitacionesconstanciascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|solutionrelative:webappsmarthys\\controllers\\capacitacionesconstanciascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|c:\\users\\sebastian\\desktop\\solucionhys\\webappsmarthys\\webappsmarthys\\views\\shared\\components\\navigation\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|solutionrelative:webappsmarthys\\views\\shared\\components\\navigation\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|c:\\users\\sebastian\\desktop\\solucionhys\\webappsmarthys\\webappsmarthys\\views\\shared\\_shortcutmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|solutionrelative:webappsmarthys\\views\\shared\\_shortcutmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|c:\\users\\sebastian\\desktop\\solucionhys\\webappsmarthys\\webappsmarthys\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|solutionrelative:webappsmarthys\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|c:\\users\\sebastian\\desktop\\solucionhys\\webappsmarthys\\webappsmarthys\\nav - copy.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|solutionrelative:webappsmarthys\\nav - copy.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|c:\\users\\sebastian\\desktop\\solucionhys\\webappsmarthys\\webappsmarthys\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|solutionrelative:webappsmarthys\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|c:\\users\\sebastian\\desktop\\solucionhys\\webappsmarthys\\webappsmarthys\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|solutionrelative:webappsmarthys\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|c:\\users\\sebastian\\desktop\\solucionhys\\webappsmarthys\\webappsmarthys\\views\\shared\\_pageheader.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|solutionrelative:webappsmarthys\\views\\shared\\_pageheader.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|c:\\users\\sebastian\\desktop\\solucionhys\\webappsmarthys\\webappsmarthys\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|solutionrelative:webappsmarthys\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|c:\\users\\sebastian\\desktop\\solucionhys\\webappsmarthys\\webappsmarthys\\controllers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|solutionrelative:webappsmarthys\\controllers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|c:\\users\\sebastian\\desktop\\solucionhys\\webappsmarthys\\webappsmarthys\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|solutionrelative:webappsmarthys\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|c:\\users\\sebastian\\desktop\\solucionhys\\webappsmarthys\\webappsmarthys\\views\\page\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|solutionrelative:webappsmarthys\\views\\page\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|c:\\users\\sebastian\\desktop\\solucionhys\\webappsmarthys\\webappsmarthys\\views\\aspnetcore\\interactive.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|solutionrelative:webappsmarthys\\views\\aspnetcore\\interactive.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|c:\\users\\sebastian\\desktop\\solucionhys\\webappsmarthys\\webappsmarthys\\controllers\\capacitacionesincendiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|solutionrelative:webappsmarthys\\controllers\\capacitacionesincendiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|c:\\users\\sebastian\\desktop\\solucionhys\\webappsmarthys\\webappsmarthys\\views\\capacitacionesincendio\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|solutionrelative:webappsmarthys\\views\\capacitacionesincendio\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|c:\\users\\sebastian\\desktop\\solucionhys\\webappsmarthys\\webappsmarthys\\areas\\identity\\pages\\account\\forgotpassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|solutionrelative:webappsmarthys\\areas\\identity\\pages\\account\\forgotpassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|c:\\users\\sebastian\\desktop\\solucionhys\\webappsmarthys\\webappsmarthys\\wwwroot\\js\\miscellaneous\\lightgallery\\smartvoice.bundle.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|solutionrelative:webappsmarthys\\wwwroot\\js\\miscellaneous\\lightgallery\\smartvoice.bundle.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|c:\\users\\sebastian\\desktop\\solucionhys\\webappsmarthys\\webappsmarthys\\views\\shared\\_dropdownmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|solutionrelative:webappsmarthys\\views\\shared\\_dropdownmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|c:\\users\\sebastian\\desktop\\solucionhys\\webappsmarthys\\webappsmarthys\\views\\capacitaciones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|solutionrelative:webappsmarthys\\views\\capacitaciones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|c:\\users\\sebastian\\desktop\\solucionhys\\webappsmarthys\\webappsmarthys\\views\\shared\\_pagesettings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|solutionrelative:webappsmarthys\\views\\shared\\_pagesettings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|c:\\users\\sebastian\\desktop\\solucionhys\\webappsmarthys\\webappsmarthys\\views\\shared\\_pageheading.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|solutionrelative:webappsmarthys\\views\\shared\\_pageheading.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|c:\\users\\sebastian\\desktop\\solucionhys\\webappsmarthys\\webappsmarthys\\class\\formulario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|solutionrelative:webappsmarthys\\class\\formulario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|c:\\users\\sebastian\\desktop\\solucionhys\\webappsmarthys\\webappsmarthys\\controllers\\evaluacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|solutionrelative:webappsmarthys\\controllers\\evaluacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|c:\\users\\sebastian\\desktop\\solucionhys\\webappsmarthys\\webappsmarthys\\controllers\\capacitacionesriesgoelectricocontroller  - copy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|solutionrelative:webappsmarthys\\controllers\\capacitacionesriesgoelectricocontroller  - copy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|c:\\users\\sebastian\\desktop\\solucionhys\\webappsmarthys\\webappsmarthys\\controllers\\capacitacionesprimerosauxilioscontroller  - copy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|solutionrelative:webappsmarthys\\controllers\\capacitacionesprimerosauxilioscontroller  - copy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|c:\\users\\sebastian\\desktop\\solucionhys\\webappsmarthys\\webappsmarthys\\controllers\\capacitacionesmedioambiente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|solutionrelative:webappsmarthys\\controllers\\capacitacionesmedioambiente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|c:\\users\\sebastian\\desktop\\solucionhys\\webappsmarthys\\webappsmarthys\\controllers\\capacitacioneselementoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|solutionrelative:webappsmarthys\\controllers\\capacitacioneselementoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|c:\\users\\sebastian\\desktop\\solucionhys\\webappsmarthys\\webappsmarthys\\controllers\\capacitacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|solutionrelative:webappsmarthys\\controllers\\capacitacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|c:\\users\\sebastian\\desktop\\solucionhys\\webappsmarthys\\webappsmarthys\\controllers\\capacitacionescirculacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|solutionrelative:webappsmarthys\\controllers\\capacitacionescirculacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|c:\\users\\sebastian\\desktop\\solucionhys\\webappsmarthys\\webappsmarthys\\controllers\\capacitacionesaccidentesitinere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|solutionrelative:webappsmarthys\\controllers\\capacitacionesaccidentesitinere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|c:\\users\\sebastian\\desktop\\solucionhys\\webappsmarthys\\webappsmarthys\\controllers\\datatablescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|solutionrelative:webappsmarthys\\controllers\\datatablescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|c:\\users\\sebastian\\desktop\\solucionhys\\webappsmarthys\\webappsmarthys\\views\\shared\\_layout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52722178-0138-4B74-B84B-D1F6F5BEFEE6}|WebAppSmartHYS\\WebAppSmartHYS.csproj|solutionrelative:webappsmarthys\\views\\shared\\_layout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:20:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:21:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:17:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:19:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:18:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{65ddf8c3-8f89-4077-a6c6-dbb8853aab13}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{65ddf8c3-8f89-4077-a6c6-dbb8853aab13}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{65ddf8c3-8f89-4077-a6c6-dbb8853aab13}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "server-demo.json",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\wwwroot\\media\\data\\server-demo.json",
+              "RelativeDocumentMoniker": "WebAppSmartHYS\\wwwroot\\media\\data\\server-demo.json",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\wwwroot\\media\\data\\server-demo.json",
+              "RelativeToolTip": "WebAppSmartHYS\\wwwroot\\media\\data\\server-demo.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-23T13:14:03.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Alteditor.cshtml",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Views\\Datatables\\Alteditor.cshtml",
+              "RelativeDocumentMoniker": "WebAppSmartHYS\\Views\\Datatables\\Alteditor.cshtml",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Views\\Datatables\\Alteditor.cshtml",
+              "RelativeToolTip": "WebAppSmartHYS\\Views\\Datatables\\Alteditor.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEAAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-23T13:08:56.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Views\\CapacitacionesAccidentesItinere\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebAppSmartHYS\\Views\\CapacitacionesAccidentesItinere\\Index.cshtml",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Views\\CapacitacionesAccidentesItinere\\Index.cshtml",
+              "RelativeToolTip": "WebAppSmartHYS\\Views\\CapacitacionesAccidentesItinere\\Index.cshtml",
+              "ViewState": "AQIAAMsAAAAAAAAAAAAAwNMAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-19T21:39:16.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Startup.cs",
+              "RelativeDocumentMoniker": "WebAppSmartHYS\\Startup.cs",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Startup.cs",
+              "RelativeToolTip": "WebAppSmartHYS\\Startup.cs",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAQwHwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-21T20:37:12.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\appsettings.json",
+              "RelativeDocumentMoniker": "WebAppSmartHYS\\appsettings.json",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\appsettings.json",
+              "RelativeToolTip": "WebAppSmartHYS\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2023-12-21T20:37:12.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConstanciasController.cs",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Controllers\\ConstanciasController.cs",
+              "RelativeDocumentMoniker": "WebAppSmartHYS\\Controllers\\ConstanciasController.cs",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Controllers\\ConstanciasController.cs",
+              "RelativeToolTip": "WebAppSmartHYS\\Controllers\\ConstanciasController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAUwAcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T13:26:40.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GrabacionesController.cs",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Controllers\\GrabacionesController.cs",
+              "RelativeDocumentMoniker": "WebAppSmartHYS\\Controllers\\GrabacionesController.cs",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Controllers\\GrabacionesController.cs",
+              "RelativeToolTip": "WebAppSmartHYS\\Controllers\\GrabacionesController.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAADgvzQAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T13:26:57.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CapacitacionesErgonomiaController.cs",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Controllers\\CapacitacionesErgonomiaController.cs",
+              "RelativeDocumentMoniker": "WebAppSmartHYS\\Controllers\\CapacitacionesErgonomiaController.cs",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Controllers\\CapacitacionesErgonomiaController.cs",
+              "RelativeToolTip": "WebAppSmartHYS\\Controllers\\CapacitacionesErgonomiaController.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAAkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T16:09:22.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Views\\CapacitacionesConstancias\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebAppSmartHYS\\Views\\CapacitacionesConstancias\\Index.cshtml",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Views\\CapacitacionesConstancias\\Index.cshtml",
+              "RelativeToolTip": "WebAppSmartHYS\\Views\\CapacitacionesConstancias\\Index.cshtml",
+              "ViewState": "AQIAANoAAAAAAAAAAAAAANcAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-23T16:12:15.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ConstanciasCapacitacionesController.cs",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Controllers\\ConstanciasCapacitacionesController.cs",
+              "RelativeDocumentMoniker": "WebAppSmartHYS\\Controllers\\ConstanciasCapacitacionesController.cs",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Controllers\\ConstanciasCapacitacionesController.cs",
+              "RelativeToolTip": "WebAppSmartHYS\\Controllers\\ConstanciasCapacitacionesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T19:37:45.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Views\\Shared\\Components\\Navigation\\Default.cshtml",
+              "RelativeDocumentMoniker": "WebAppSmartHYS\\Views\\Shared\\Components\\Navigation\\Default.cshtml",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Views\\Shared\\Components\\Navigation\\Default.cshtml",
+              "RelativeToolTip": "WebAppSmartHYS\\Views\\Shared\\Components\\Navigation\\Default.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-11T17:48:41.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "nav - Copy.json",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\nav - Copy.json",
+              "RelativeDocumentMoniker": "WebAppSmartHYS\\nav - Copy.json",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\nav - Copy.json",
+              "RelativeToolTip": "WebAppSmartHYS\\nav - Copy.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-11T17:44:55.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "nav.json",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\nav.json",
+              "RelativeDocumentMoniker": "WebAppSmartHYS\\nav.json",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\nav.json",
+              "RelativeToolTip": "WebAppSmartHYS\\nav.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-10T12:23:47.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CapacitacionesConstanciasController.cs",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Controllers\\CapacitacionesConstanciasController.cs",
+              "RelativeDocumentMoniker": "WebAppSmartHYS\\Controllers\\CapacitacionesConstanciasController.cs",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Controllers\\CapacitacionesConstanciasController.cs",
+              "RelativeToolTip": "WebAppSmartHYS\\Controllers\\CapacitacionesConstanciasController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T16:10:36.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebAppSmartHYS\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebAppSmartHYS\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAvwA8AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-11T13:55:04.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "WebAppSmartHYS\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeToolTip": "WebAppSmartHYS\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAowBYAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-19T21:32:03.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MainController.cs",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Controllers\\MainController.cs",
+              "RelativeDocumentMoniker": "WebAppSmartHYS\\Controllers\\MainController.cs",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Controllers\\MainController.cs",
+              "RelativeToolTip": "WebAppSmartHYS\\Controllers\\MainController.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAiwDMAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T13:20:01.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ShortcutMenu.cshtml",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Views\\Shared\\_ShortcutMenu.cshtml",
+              "RelativeDocumentMoniker": "WebAppSmartHYS\\Views\\Shared\\_ShortcutMenu.cshtml",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Views\\Shared\\_ShortcutMenu.cshtml",
+              "RelativeToolTip": "WebAppSmartHYS\\Views\\Shared\\_ShortcutMenu.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-11T14:36:16.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "WebAppSmartHYS\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "WebAppSmartHYS\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAFsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-21T20:37:12.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "WebAppSmartHYS\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "WebAppSmartHYS\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAACcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T12:55:15.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_PageHeader.cshtml",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Views\\Shared\\_PageHeader.cshtml",
+              "RelativeDocumentMoniker": "WebAppSmartHYS\\Views\\Shared\\_PageHeader.cshtml",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Views\\Shared\\_PageHeader.cshtml",
+              "RelativeToolTip": "WebAppSmartHYS\\Views\\Shared\\_PageHeader.cshtml",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAFgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-21T20:37:12.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Logout.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeDocumentMoniker": "WebAppSmartHYS\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeToolTip": "WebAppSmartHYS\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAB4AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T21:32:59.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Views\\Page\\Login.cshtml",
+              "RelativeDocumentMoniker": "WebAppSmartHYS\\Views\\Page\\Login.cshtml",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Views\\Page\\Login.cshtml",
+              "RelativeToolTip": "WebAppSmartHYS\\Views\\Page\\Login.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAswB0AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-19T21:32:23.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Interactive.cshtml",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Views\\AspNetCore\\Interactive.cshtml",
+              "RelativeDocumentMoniker": "WebAppSmartHYS\\Views\\AspNetCore\\Interactive.cshtml",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Views\\AspNetCore\\Interactive.cshtml",
+              "RelativeToolTip": "WebAppSmartHYS\\Views\\AspNetCore\\Interactive.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAswD8AAACaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-19T21:34:17.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CapacitacionesIncendioController.cs",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Controllers\\CapacitacionesIncendioController.cs",
+              "RelativeDocumentMoniker": "WebAppSmartHYS\\Controllers\\CapacitacionesIncendioController.cs",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Controllers\\CapacitacionesIncendioController.cs",
+              "RelativeToolTip": "WebAppSmartHYS\\Controllers\\CapacitacionesIncendioController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T13:26:22.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Views\\CapacitacionesIncendio\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebAppSmartHYS\\Views\\CapacitacionesIncendio\\Index.cshtml",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Views\\CapacitacionesIncendio\\Index.cshtml",
+              "RelativeToolTip": "WebAppSmartHYS\\Views\\CapacitacionesIncendio\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-18T13:11:57.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ForgotPassword.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
+              "RelativeDocumentMoniker": "WebAppSmartHYS\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
+              "RelativeToolTip": "WebAppSmartHYS\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAiwBQAAACQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T14:06:45.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "smartvoice.bundle.js",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\wwwroot\\js\\miscellaneous\\lightgallery\\smartvoice.bundle.js",
+              "RelativeDocumentMoniker": "WebAppSmartHYS\\wwwroot\\js\\miscellaneous\\lightgallery\\smartvoice.bundle.js",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\wwwroot\\js\\miscellaneous\\lightgallery\\smartvoice.bundle.js",
+              "RelativeToolTip": "WebAppSmartHYS\\wwwroot\\js\\miscellaneous\\lightgallery\\smartvoice.bundle.js",
+              "ViewState": "AQIAAHkAAAAAAAAAAAAkwHsAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-04-11T17:38:10.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Views\\Capacitaciones\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebAppSmartHYS\\Views\\Capacitaciones\\Index.cshtml",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Views\\Capacitaciones\\Index.cshtml",
+              "RelativeToolTip": "WebAppSmartHYS\\Views\\Capacitaciones\\Index.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB4AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-11T12:52:08.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "_DropdownMenu.cshtml",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Views\\Shared\\_DropdownMenu.cshtml",
+              "RelativeDocumentMoniker": "WebAppSmartHYS\\Views\\Shared\\_DropdownMenu.cshtml",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Views\\Shared\\_DropdownMenu.cshtml",
+              "RelativeToolTip": "WebAppSmartHYS\\Views\\Shared\\_DropdownMenu.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB0AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-11T14:34:49.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CapacitacionesRiesgoElectricoController  - Copy.cs",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Controllers\\CapacitacionesRiesgoElectricoController  - Copy.cs",
+              "RelativeDocumentMoniker": "WebAppSmartHYS\\Controllers\\CapacitacionesRiesgoElectricoController  - Copy.cs",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Controllers\\CapacitacionesRiesgoElectricoController  - Copy.cs",
+              "RelativeToolTip": "WebAppSmartHYS\\Controllers\\CapacitacionesRiesgoElectricoController  - Copy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T13:26:37.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "_PageHeading.cshtml",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Views\\Shared\\_PageHeading.cshtml",
+              "RelativeDocumentMoniker": "WebAppSmartHYS\\Views\\Shared\\_PageHeading.cshtml",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Views\\Shared\\_PageHeading.cshtml",
+              "RelativeToolTip": "WebAppSmartHYS\\Views\\Shared\\_PageHeading.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-11T13:54:49.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "_PageSettings.cshtml",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Views\\Shared\\_PageSettings.cshtml",
+              "RelativeDocumentMoniker": "WebAppSmartHYS\\Views\\Shared\\_PageSettings.cshtml",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Views\\Shared\\_PageSettings.cshtml",
+              "RelativeToolTip": "WebAppSmartHYS\\Views\\Shared\\_PageSettings.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-11T13:54:54.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "EvaluacionesController.cs",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Controllers\\EvaluacionesController.cs",
+              "RelativeDocumentMoniker": "WebAppSmartHYS\\Controllers\\EvaluacionesController.cs",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Controllers\\EvaluacionesController.cs",
+              "RelativeToolTip": "WebAppSmartHYS\\Controllers\\EvaluacionesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T13:26:50.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Formulario.cs",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Class\\Formulario.cs",
+              "RelativeDocumentMoniker": "WebAppSmartHYS\\Class\\Formulario.cs",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Class\\Formulario.cs",
+              "RelativeToolTip": "WebAppSmartHYS\\Class\\Formulario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T13:29:02.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "CapacitacionesPrimerosAuxiliosController  - Copy.cs",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Controllers\\CapacitacionesPrimerosAuxiliosController  - Copy.cs",
+              "RelativeDocumentMoniker": "WebAppSmartHYS\\Controllers\\CapacitacionesPrimerosAuxiliosController  - Copy.cs",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Controllers\\CapacitacionesPrimerosAuxiliosController  - Copy.cs",
+              "RelativeToolTip": "WebAppSmartHYS\\Controllers\\CapacitacionesPrimerosAuxiliosController  - Copy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T13:26:34.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "CapacitacionesMedioAmbiente.cs",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Controllers\\CapacitacionesMedioAmbiente.cs",
+              "RelativeDocumentMoniker": "WebAppSmartHYS\\Controllers\\CapacitacionesMedioAmbiente.cs",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Controllers\\CapacitacionesMedioAmbiente.cs",
+              "RelativeToolTip": "WebAppSmartHYS\\Controllers\\CapacitacionesMedioAmbiente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T13:26:28.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CapacitacionesElementosController.cs",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Controllers\\CapacitacionesElementosController.cs",
+              "RelativeDocumentMoniker": "WebAppSmartHYS\\Controllers\\CapacitacionesElementosController.cs",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Controllers\\CapacitacionesElementosController.cs",
+              "RelativeToolTip": "WebAppSmartHYS\\Controllers\\CapacitacionesElementosController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T13:26:16.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CapacitacionesCirculacion.cs",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Controllers\\CapacitacionesCirculacion.cs",
+              "RelativeDocumentMoniker": "WebAppSmartHYS\\Controllers\\CapacitacionesCirculacion.cs",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Controllers\\CapacitacionesCirculacion.cs",
+              "RelativeToolTip": "WebAppSmartHYS\\Controllers\\CapacitacionesCirculacion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T13:26:09.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CapacitacionesAccidentesItinere.cs",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Controllers\\CapacitacionesAccidentesItinere.cs",
+              "RelativeDocumentMoniker": "WebAppSmartHYS\\Controllers\\CapacitacionesAccidentesItinere.cs",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Controllers\\CapacitacionesAccidentesItinere.cs",
+              "RelativeToolTip": "WebAppSmartHYS\\Controllers\\CapacitacionesAccidentesItinere.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T13:25:01.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CapacitacionesController.cs",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Controllers\\CapacitacionesController.cs",
+              "RelativeDocumentMoniker": "WebAppSmartHYS\\Controllers\\CapacitacionesController.cs",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Controllers\\CapacitacionesController.cs",
+              "RelativeToolTip": "WebAppSmartHYS\\Controllers\\CapacitacionesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T13:10:21.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "DatatablesController.cs",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Controllers\\DatatablesController.cs",
+              "RelativeDocumentMoniker": "WebAppSmartHYS\\Controllers\\DatatablesController.cs",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Controllers\\DatatablesController.cs",
+              "RelativeToolTip": "WebAppSmartHYS\\Controllers\\DatatablesController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T13:23:11.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "_Layout.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Views\\Shared\\_Layout.cshtml.cs",
+              "RelativeDocumentMoniker": "WebAppSmartHYS\\Views\\Shared\\_Layout.cshtml.cs",
+              "ToolTip": "C:\\Users\\sebastian\\Desktop\\SolucionHYS\\WebAppSmartHYS\\WebAppSmartHYS\\Views\\Shared\\_Layout.cshtml.cs",
+              "RelativeToolTip": "WebAppSmartHYS\\Views\\Shared\\_Layout.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-21T20:37:12.125Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

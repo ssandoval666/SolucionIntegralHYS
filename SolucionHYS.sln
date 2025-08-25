@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33130.400
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAppSmartDS", "WebAppSmartDS\WebAppSmartDS\WebAppSmartDS.csproj", "{4E3C04F4-B3BF-44B5-B9E7-E0EF4F64D04C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E3C04F4-B3BF-44B5-B9E7-E0EF4F64D04C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E3C04F4-B3BF-44B5-B9E7-E0EF4F64D04C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E3C04F4-B3BF-44B5-B9E7-E0EF4F64D04C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E3C04F4-B3BF-44B5-B9E7-E0EF4F64D04C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B726D1FB-024B-4A29-9376-FEAE82DBBB02}
+	EndGlobalSection
+EndGlobal
